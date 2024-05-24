@@ -1,0 +1,46 @@
+{
+    "calls": {
+        "AAF": {
+            "doc_link": "https://koala.sh/pages/api-docs",
+            "initialized": true,
+            "method": "get",
+            "name": "consultar Artigo",
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1685319958851x568662227025657860.plugin_api.AAF",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAF\":{\"caption\":\"consultar Artigo\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"96079ebb-8a49-44f6-b3a5-7d01bb99e99b\",\"path\":[\"id\"]},\"_p_createdAt\":{\"ret_value\":\"number\",\"caption\":\"createdAt\",\"sample_value\":1685314645036,\"path\":[\"createdAt\"]},\"_p_config.targetKeyword\":{\"ret_value\":\"text\",\"caption\":\"config targetKeyword\",\"sample_value\":\"can you eat watermelon seeds?\",\"path\":[\"config\",\"targetKeyword\"]},\"_p_config.gptVersion\":{\"ret_value\":\"text\",\"caption\":\"config gptVersion\",\"sample_value\":\"gpt-4\",\"path\":[\"config\",\"gptVersion\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"queued\",\"path\":[\"status\"]},\"_p_statusDetail\":{\"ret_value\":\"text\",\"caption\":\"statusDetail\",\"sample_value\":\"Added to queue\",\"path\":[\"statusDetail\"]},\"_p_updatedAt\":{\"ret_value\":\"number\",\"caption\":\"updatedAt\",\"sample_value\":1685314645036,\"path\":[\"updatedAt\"]},\"_p_progress\":{\"ret_value\":\"number\",\"caption\":\"progress\",\"sample_value\":0,\"path\":[\"progress\"]},\"_p_error\":{\"ret_value\":\"text\",\"caption\":\"error\",\"sample_value\":null,\"path\":[\"error\"]}}}}",
+            "url": "https://koala.sh/api/articles/[article_id]",
+            "url_params": {
+                "AAI": {
+                    "doc": "ID do Artigo",
+                    "key": "article_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAQ": {
+            "method": "post",
+            "name": "Criar Artigo",
+            "publish_as": "data",
+            "rank": 0,
+            "should_reinitialize": true
+        }
+    },
+    "human": "Koala I. A",
+    "shared_headers": {
+        "AAG": {
+            "key": "content-type",
+            "private": true,
+            "value": "application/json",
+            "visibility": "hidden"
+        },
+        "AAH": {
+            "doc": "Chave de autenticação da plataforma Koala - (Ex : Bearer chave de acesso)",
+            "key": "Authorization",
+            "private": true,
+            "visibility": "secret"
+        }
+    }
+}

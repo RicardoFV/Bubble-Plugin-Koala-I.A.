@@ -1,0 +1,48 @@
+{
+    "category": "plugins",
+    "display": "Koala - Chat",
+    "fields": {
+        "AAD": {
+            "caption": "Campo de Texto",
+            "doc": "Campo destinado a ser digitado um texto",
+            "editor": "DynamicValue",
+            "name": "campo_texto",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "token",
+            "doc": "Chave de autenticação da plataforma Koala - (Ex : 12345452DDSD5465S)",
+            "editor": "DynamicValue",
+            "name": "token",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Resposta em Tempo Real ?",
+            "default_val": false,
+            "doc": "Caso Coloque sim , a resposta sera em tempo real",
+            "editor": "DynamicValue",
+            "name": "tempo_real",
+            "optional": true,
+            "rank": 2,
+            "value": "boolean"
+        }
+    },
+    "return_value": {
+        "AAK": {
+            "caption": "Resposta",
+            "name": "resposta",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "status",
+            "name": "status",
+            "rank": 1,
+            "value": "number"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

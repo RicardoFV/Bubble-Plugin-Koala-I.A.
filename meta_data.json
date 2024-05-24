@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "artificial intelligence (AI)"
+    },
+    "description": "Ferramentas baseadas em IA criadas para você\n",
+    "image": "//meta-l.cdn.bubble.io/f1685578217764x311759592972678200/inteligencia-artificial-ia-quais-as-suas-aplicacoes-na-engenharia-imagem-large.png",
+    "license": "open_source",
+    "link": "https://koala.sh/pages/api-docs",
+    "name": "Koala I.A.",
+    "plugin_instructions": "Para fazer uso do plugin, você deve se atentar para algumas informações, dos quais são :\n\n- Chave API\n\nVocê precisará de uma chave de API que requer uma assinatura ativa e paga do Koala, que começa em apenas US$ 9/mês.\n\nSe você ainda não tem uma conta, primeiro registre-se . Em seguida, você pode se inscrever em um plano pago .\n\nDepois de ter um plano ativo, visite a página da sua conta . Clique no botão Adicionar chave de API para criar uma chave de API. Em seguida, copie o valor da chave criada, ficará assim: . a0ce8c2f-60ad-4edc-89eb-bd6da042e572\n\nPara autenticar com nossa API, você deve incluir um cabeçalho em cada solicitação. Isso é conhecido como autenticação de portador e você pode ver exemplos abaixo. Authorization: Bearer YOUR_API_KEY\n\nNo plugin estará disponiveis os seguintes serviçõs \n\n- Criar Artigo \n\nCriação de aritgo\n\n- Consultar Artigo\n\nPermite consultar o artigo criado, como também o seu status.\n\n- Chat\n\nPermite a iteração em tempo real ou não, com o chat-gpt\n\n\nPara maiores informações, é só consultar a documentação da api.",
+    "sa_node_version": 18
+}
